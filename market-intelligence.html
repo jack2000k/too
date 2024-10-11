@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Intelligence - Onion Market Platform</title>
+    <link rel="stylesheet" href="css/market-intelligence.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Onion Market Intelligence</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="market-intelligence.html">Market Intelligence</a>
+        <a href="retailer-dashboard.html">Retailer Dashboard</a>
+        <a href="farmer-dashboard.html">Farmer Dashboard</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Market Analytics</h2>
+      <section>
+        <h3>Current Onion Prices</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>District</th>
+              <th>Price (RWF)</th>
+              <th>Distance from Cheap Source (km)</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rubavu</td>
+              <td>800</td>
+              <td>0</td>
+              <td>2024-10-01</td>
+            </tr>
+            <tr>
+              <td>Musanze</td>
+              <td>850</td>
+              <td>10</td>
+              <td>2024-10-01</td>
+            </tr>
+            <tr>
+              <td>Kigali</td>
+              <td>1000</td>
+              <td>20</td>
+              <td>2024-10-01</td>
+            </tr>
+            <tr>
+              <td>Huye</td>
+              <td>950</td>
+              <td>30</td>
+              <td>2024-10-01</td>
+            </tr>
+            <tr>
+              <td>Rusizi</td>
+              <td>980</td>
+              <td>40</td>
+              <td>2024-10-01</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="prediction-section">
+        <h3>Market Predictions</h3>
+        <div class="prediction-card">
+          <h4>Price Trend</h4>
+          <p>
+            Based on current trends, onion prices are expected to rise by
+            <strong>5%</strong> over the next month due to increased demand and
+            seasonal variations.
+          </p>
+          <h5>Factors Influencing Market</h5>
+          <ul>
+            <li>Seasonal demand fluctuations</li>
+            <li>Weather conditions affecting supply</li>
+            <li>Market competition and pricing strategies</li>
+          </ul>
+        </div>
+      </section>
+      <button id="feedback-button">Give Feedback</button>
+      <section id="feedback-section" class="hidden">
+        <h3>Feedback Form</h3>
+        <form id="feedback-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Onion Market Platform. All rights reserved.</p>
+    </footer>
+    <script src="javascript/"></script>
+  </body>
+</html>
